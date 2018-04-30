@@ -26,7 +26,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      context: {},
+      context:{},
       messages: [],
       sender: 'watson'/*,
       _id: uuidv1()*/
@@ -88,7 +88,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.sendMessage('Hello', {});
+    this.sendMessage('Hello', {"private":{"my_credentials":{"user":"ccb1c597-f57c-4f31-b2b2-3a3ec89c5774","password":"0d4e14uzt35xwr5G2jb46e5WMKbY7gv86Bs5XSKeTpCNy8dCz8RcxSzSkXicXhIy"}}});
   }
 
   componentDidUpdate() {
