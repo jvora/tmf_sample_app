@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: "tomyogms/tmf_sample_app:latest"
+        image: "yamunaji/tmf_sample_app:latest"
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
